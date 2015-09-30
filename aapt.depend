@@ -1,0 +1,1315 @@
+# depslib dependency file v1.0
+1414404962 source:e:\code\aapt\aaptassets.cpp
+	"AaptAssets.h"
+	"ResourceFilter.h"
+	"Main.h"
+	<utils/misc.h>
+	<utils/SortedVector.h>
+	<ctype.h>
+	<dirent.h>
+	<errno.h>
+
+1414404962 e:\code\aapt\aaptassets.h
+	<stdlib.h>
+	<utils/AssetManager.h>
+	<utils/KeyedVector.h>
+	<utils/String8.h>
+	<utils/ResourceTypes.h>
+	<utils/SortedVector.h>
+	<utils/String8.h>
+	<utils/Vector.h>
+	<utils/RefBase.h>
+	"ZipFile.h"
+	"Bundle.h"
+	"SourcePos.h"
+
+1414404962 e:\code\aapt\\utils\assetmanager.h
+	<utils/Asset.h>
+	<utils/AssetDir.h>
+	<utils/KeyedVector.h>
+	<utils/String8.h>
+	<utils/Vector.h>
+	<utils/String16.h>
+	<utils/ZipFileRO.h>
+	<utils/threads.h>
+
+1414404962 e:\code\aapt\\utils\asset.h
+	<stdio.h>
+	<sys/types.h>
+	<utils/Compat.h>
+	<utils/Errors.h>
+	<utils/FileMap.h>
+	<utils/String8.h>
+
+1443603712 e:\code\aapt\\utils\compat.h
+	<unistd.h>
+
+1414404962 e:\code\aapt\\utils\errors.h
+	<sys/types.h>
+	<errno.h>
+
+1414404962 e:\code\aapt\\utils\filemap.h
+	<sys/types.h>
+	<utils/Compat.h>
+	<windows.h>
+
+1414404962 e:\code\aapt\\utils\string8.h
+	<utils/Errors.h>
+	<utils/SharedBuffer.h>
+	<utils/Unicode.h>
+	<string.h>
+	<stdarg.h>
+
+1414404962 e:\code\aapt\\utils\sharedbuffer.h
+	<stdint.h>
+	<sys/types.h>
+
+1414404962 e:\code\aapt\\utils\unicode.h
+	<sys/types.h>
+	<stdint.h>
+
+1414404962 e:\code\aapt\\utils\assetdir.h
+	<utils/String8.h>
+	<utils/Vector.h>
+	<utils/SortedVector.h>
+	<utils/misc.h>
+	<sys/types.h>
+
+1414404962 e:\code\aapt\\utils\vector.h
+	<new>
+	<stdint.h>
+	<sys/types.h>
+	"fakeLog.h"
+	<utils/VectorImpl.h>
+	<utils/TypeHelpers.h>
+
+1414404962 e:\code\aapt\\fakelog.h
+
+1414404962 e:\code\aapt\\utils\vectorimpl.h
+	<assert.h>
+	<stdint.h>
+	<sys/types.h>
+	<utils/Errors.h>
+
+1414404962 e:\code\aapt\\utils\typehelpers.h
+	<new>
+	<stdint.h>
+	<string.h>
+	<sys/types.h>
+
+1414404962 e:\code\aapt\\utils\sortedvector.h
+	<assert.h>
+	<stdint.h>
+	<sys/types.h>
+	<utils/Vector.h>
+	<utils/VectorImpl.h>
+	<utils/TypeHelpers.h>
+
+1414404962 e:\code\aapt\\utils\misc.h
+	<sys/time.h>
+	<utils/Endian.h>
+
+1414404962 e:\code\aapt\\utils\endian.h
+	<endian.h>
+
+1414404962 e:\code\aapt\utils\endian.h
+	<endian.h>
+
+1414404962 e:\code\aapt\\utils\keyedvector.h
+	<assert.h>
+	<stdint.h>
+	<sys/types.h>
+	<utils/SortedVector.h>
+	<utils/TypeHelpers.h>
+	<utils/Errors.h>
+
+1414404962 e:\code\aapt\\utils\string16.h
+	<utils/Errors.h>
+	<utils/SharedBuffer.h>
+	<utils/Unicode.h>
+
+1414404962 e:\code\aapt\\utils\zipfilero.h
+	<utils/Compat.h>
+	<utils/Errors.h>
+	<utils/FileMap.h>
+	<utils/threads.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<time.h>
+
+1414404962 e:\code\aapt\\utils\threads.h
+	<stdint.h>
+	<sys/types.h>
+	<time.h>
+	<system/graphics.h>
+	<pthread.h>
+	<utils/Errors.h>
+	<utils/RefBase.h>
+	<utils/Timers.h>
+
+1414404962 e:\code\aapt\\system\graphics.h
+
+1414404962 e:\code\aapt\\utils\refbase.h
+	<cutils/atomic.h>
+	<stdint.h>
+	<sys/types.h>
+	<stdlib.h>
+	<string.h>
+	<utils/StrongPointer.h>
+
+1414404962 e:\code\aapt\\cutils\atomic.h
+	<stdint.h>
+	<sys/types.h>
+
+1414404962 e:\code\aapt\\utils\strongpointer.h
+	<cutils/atomic.h>
+	<stdint.h>
+	<sys/types.h>
+	<stdlib.h>
+
+1414404962 e:\code\aapt\\utils\timers.h
+	<stdint.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1414404962 e:\code\aapt\\utils\resourcetypes.h
+	<utils/Asset.h>
+	<utils/ByteOrder.h>
+	<utils/Errors.h>
+	<utils/String16.h>
+	<utils/Vector.h>
+	<utils/threads.h>
+	<stdint.h>
+	<sys/types.h>
+	<android/configuration.h>
+
+1414404962 e:\code\aapt\\utils\byteorder.h
+	<stdint.h>
+	<sys/types.h>
+	<winsock2.h>
+	<netinet/in.h>
+
+1414404962 e:\code\aapt\\android\configuration.h
+	<android/asset_manager.h>
+
+1414404962 e:\code\aapt\\android\asset_manager.h
+	<sys/types.h>
+
+1414404962 e:\code\aapt\zipfile.h
+	<utils/Vector.h>
+	<utils/Errors.h>
+	<stdio.h>
+	"ZipEntry.h"
+
+1414404962 e:\code\aapt\zipentry.h
+	<utils/Errors.h>
+	<stdlib.h>
+	<stdio.h>
+
+1414404962 e:\code\aapt\bundle.h
+	<stdlib.h>
+	"fakeLog.h"
+	<utils/threads.h>
+	<utils/List.h>
+	<utils/Errors.h>
+	<utils/String8.h>
+	<utils/Vector.h>
+
+1414404962 e:\code\aapt\fakelog.h
+
+1414404962 e:\code\aapt\\utils\list.h
+	<stddef.h>
+	<stdint.h>
+
+1414404962 e:\code\aapt\sourcepos.h
+	<utils/String8.h>
+	<stdio.h>
+
+1414404962 e:\code\aapt\resourcefilter.h
+	"AaptAssets.h"
+
+1414404962 e:\code\aapt\main.h
+	"fakeLog.h"
+	<utils/threads.h>
+	<utils/List.h>
+	<utils/Errors.h>
+	"Bundle.h"
+	"AaptAssets.h"
+	"ZipFile.h"
+	"preDef.h"
+	<time.h>
+
+1414404962 e:\code\aapt\predef.h
+
+1414404962 source:e:\code\aapt\command.cpp
+	"Main.h"
+	"Bundle.h"
+	"ResourceFilter.h"
+	"ResourceTable.h"
+	"XMLNode.h"
+	"fakeLog.h"
+	<utils/threads.h>
+	<utils/List.h>
+	<utils/Errors.h>
+	<fcntl.h>
+	<errno.h>
+
+1414404962 e:\code\aapt\resourcetable.h
+	"StringPool.h"
+	"SourcePos.h"
+	<set>
+	<map>
+
+1414404962 e:\code\aapt\stringpool.h
+	"Main.h"
+	"AaptAssets.h"
+	<utils/ResourceTypes.h>
+	<utils/String16.h>
+	<utils/TextOutput.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<ctype.h>
+	<errno.h>
+	<expat.h>
+
+1414404962 e:\code\aapt\\utils\textoutput.h
+	<utils/Errors.h>
+	<stdint.h>
+	<string.h>
+
+1383278905 e:\code\aapt\expat\expat.h
+	<stdlib.h>
+	"expat_external.h"
+
+1383278905 e:\code\aapt\expat\expat_external.h
+
+1414404962 e:\code\aapt\xmlnode.h
+	"StringPool.h"
+	"ResourceTable.h"
+
+1414404962 source:e:\code\aapt\crunchcache.cpp
+	<utils/Vector.h>
+	<utils/String8.h>
+	"DirectoryWalker.h"
+	"FileFinder.h"
+	"CacheUpdater.h"
+	"CrunchCache.h"
+
+1414404962 e:\code\aapt\directorywalker.h
+	<dirent.h>
+	<sys/types.h>
+	<sys/param.h>
+	<sys/stat.h>
+	<unistd.h>
+	<utils/String8.h>
+	<stdio.h>
+
+1414404962 e:\code\aapt\filefinder.h
+	<utils/Vector.h>
+	<utils/KeyedVector.h>
+	<utils/String8.h>
+	"DirectoryWalker.h"
+
+1414404962 e:\code\aapt\cacheupdater.h
+	<utils/String8.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stdio.h>
+	"Images.h"
+	"preDef.h"
+
+1414404962 e:\code\aapt\images.h
+	"ResourceTable.h"
+	"Bundle.h"
+	<utils/String8.h>
+	<utils/RefBase.h>
+
+1414404962 e:\code\aapt\crunchcache.h
+	<utils/KeyedVector.h>
+	<utils/String8.h>
+	"FileFinder.h"
+	"CacheUpdater.h"
+
+1414404962 source:e:\code\aapt\cutils-c\atomic.c
+	<cutils/atomic-inline.h>
+
+1414404962 e:\code\aapt\\cutils\atomic-inline.h
+	<cutils/atomic-arm.h>
+	<cutils/atomic-x86.h>
+
+1414404962 e:\code\aapt\\cutils\atomic-x86.h
+	<stdint.h>
+
+1414404962 source:e:\code\aapt\cutils-c\properties.c
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<cutils/sockets.h>
+	<errno.h>
+	<assert.h>
+	<cutils/properties.h>
+	"loghack.h"
+	<sys/_system_properties.h>
+	<stdio.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/un.h>
+	<pthread.h>
+	<cutils/threads.h>
+
+1414404962 e:\code\aapt\\cutils\sockets.h
+	<errno.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	<winsock2.h>
+	<sys/socket.h>
+
+1414404962 e:\code\aapt\\cutils\properties.h
+
+1414404962 e:\code\aapt\cutils-c\loghack.h
+	<cutils/log.h>
+	<stdio.h>
+
+1414404962 e:\code\aapt\\cutils\log.h
+	<stdio.h>
+	<time.h>
+	<sys/types.h>
+	<unistd.h>
+	<pthread.h>
+	<stdarg.h>
+	<cutils/uio.h>
+	<cutils/logd.h>
+
+1414404962 e:\code\aapt\\cutils\uio.h
+	<sys/uio.h>
+	<stddef.h>
+
+1414404962 e:\code\aapt\\cutils\logd.h
+	<android/log.h>
+	<time.h>
+	<stdio.h>
+	<unistd.h>
+	<stdint.h>
+	<sys/types.h>
+	<pthread.h>
+	<cutils/uio.h>
+	<stdarg.h>
+
+1414404962 e:\code\aapt\\android\log.h
+	<stdio.h>
+	<time.h>
+	<sys/types.h>
+	<unistd.h>
+	<pthread.h>
+	<stdarg.h>
+	<cutils/uio.h>
+	<cutils/logd.h>
+
+1414404962 e:\code\aapt\\cutils\threads.h
+	<pthread.h>
+	<windows.h>
+
+1414404962 source:e:\code\aapt\cutils-c\sched_policy.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<errno.h>
+	<fcntl.h>
+	"fakeLog.h"
+	<sched.h>
+	<pthread.h>
+	<cutils/sched_policy.h>
+
+1414404962 e:\code\aapt\\cutils\sched_policy.h
+
+1414404962 source:e:\code\aapt\cutils-c\sockets.c
+	<cutils/log.h>
+	<cutils/sockets.h>
+	<private/android_filesystem_config.h>
+
+1414404962 source:e:\code\aapt\cutils-c\threads.c
+	<cutils/threads.h>
+	<pthread.h>
+
+1414404962 source:e:\code\aapt\cutils-c\uio.c
+	<cutils/uio.h>
+	<unistd.h>
+
+1383278905 source:e:\code\aapt\expat\xmlparse.c
+	<stddef.h>
+	<string.h>
+	<assert.h>
+	<limits.h>
+	<time.h>
+	"winconfig.h"
+	"macconfig.h"
+	"amigaconfig.h"
+	"watcomconfig.h"
+	<expat_config.h>
+	"ascii.h"
+	"expat.h"
+	"internal.h"
+	"xmltok.h"
+	"xmlrole.h"
+
+1383278905 e:\code\aapt\expat\expat_config.h
+
+1383278905 e:\code\aapt\expat\ascii.h
+
+1383278905 e:\code\aapt\expat\internal.h
+
+1383278905 e:\code\aapt\expat\xmltok.h
+
+1383278905 e:\code\aapt\expat\xmlrole.h
+	"xmltok.h"
+
+1383278905 source:e:\code\aapt\expat\xmlrole.c
+	<stddef.h>
+	"winconfig.h"
+	"macconfig.h"
+	"amigaconfig.h"
+	"watcomconfig.h"
+	<expat_config.h>
+	"expat_external.h"
+	"internal.h"
+	"xmlrole.h"
+	"ascii.h"
+
+1383278905 source:e:\code\aapt\expat\xmltok.c
+	<stddef.h>
+	"winconfig.h"
+	"macconfig.h"
+	"amigaconfig.h"
+	"watcomconfig.h"
+	<expat_config.h>
+	"expat_external.h"
+	"internal.h"
+	"xmltok.h"
+	"nametab.h"
+	"xmltok_impl.h"
+	"ascii.h"
+	"xmltok_impl.c"
+	"asciitab.h"
+	"utf8tab.h"
+	"asciitab.h"
+	"utf8tab.h"
+	"iasciitab.h"
+	"utf8tab.h"
+	"iasciitab.h"
+	"utf8tab.h"
+	"asciitab.h"
+	"latin1tab.h"
+	"asciitab.h"
+	"latin1tab.h"
+	"asciitab.h"
+	"asciitab.h"
+	"xmltok_impl.c"
+	"asciitab.h"
+	"latin1tab.h"
+	"asciitab.h"
+	"latin1tab.h"
+	"iasciitab.h"
+	"latin1tab.h"
+	"iasciitab.h"
+	"latin1tab.h"
+	"xmltok_impl.c"
+	"asciitab.h"
+	"latin1tab.h"
+	"asciitab.h"
+	"latin1tab.h"
+	"iasciitab.h"
+	"latin1tab.h"
+	"iasciitab.h"
+	"latin1tab.h"
+	"xmltok_ns.c"
+	"xmltok_ns.c"
+
+1383278905 e:\code\aapt\expat\nametab.h
+
+1383278905 e:\code\aapt\expat\xmltok_impl.h
+	<stddef.h>
+
+1383278905 e:\code\aapt\expat\xmltok_impl.c
+
+1383278905 e:\code\aapt\expat\asciitab.h
+
+1383278905 e:\code\aapt\expat\utf8tab.h
+
+1383278905 e:\code\aapt\expat\iasciitab.h
+
+1383278905 e:\code\aapt\expat\latin1tab.h
+
+1383278905 e:\code\aapt\expat\xmltok_ns.c
+
+1383278905 source:e:\code\aapt\expat\xmltok_impl.c
+
+1383278905 source:e:\code\aapt\expat\xmltok_ns.c
+
+1414404962 source:e:\code\aapt\filefinder.cpp
+	<utils/Vector.h>
+	<utils/String8.h>
+	<utils/KeyedVector.h>
+	<dirent.h>
+	<sys/stat.h>
+	"DirectoryWalker.h"
+	"FileFinder.h"
+
+1414404962 source:e:\code\aapt\host\pseudolocalize.cpp
+	<host/pseudolocalize.h>
+
+1414404962 e:\code\aapt\\host\pseudolocalize.h
+	<string>
+
+1414404962 source:e:\code\aapt\images.cpp
+	"Images.h"
+	<utils/ResourceTypes.h>
+	<utils/ByteOrder.h>
+	<png.h>
+
+1383278910 e:\code\aapt\libpng\png.h
+	"zlib.h"
+	"pngconf.h"
+	<crtdbg.h>
+
+1383278925 e:\code\aapt\zlib\zlib.h
+	"zconf.h"
+
+1383278925 e:\code\aapt\zlib\zconf.h
+	<windows.h>
+	<limits.h>
+	<sys/types.h>
+	<stdarg.h>
+	<stddef.h>
+	<unistd.h>
+	<unixio.h>
+
+1383278910 e:\code\aapt\libpng\pngconf.h
+	"pngusr.h"
+	"config.h"
+	<windows.h>
+	<stdio.h>
+	<stdio.h>
+	<sys/types.h>
+	<setjmp.h>
+	<strings.h>
+	<string.h>
+	<stdlib.h>
+	<fp.h>
+	<math.h>
+	<m68881.h>
+	<mem.h>
+	<alloc.h>
+	<malloc.h>
+	<time.h>
+	<dos.h>
+
+1383278910 e:\code\aapt\libpng\pngusr.h
+
+1383278910 source:e:\code\aapt\libpng\contrib\visupng\visualpng.rc
+	"resource.h"
+	"afxres.h"
+
+1383278910 e:\code\aapt\libpng\contrib\visupng\resource.h
+
+1383278910 source:e:\code\aapt\libpng\example.c
+	"png.h"
+
+1383278910 source:e:\code\aapt\libpng\png.c
+	"png.h"
+	<stdint.h>
+
+1383278910 source:e:\code\aapt\libpng\pngerror.c
+	"png.h"
+
+1383278910 source:e:\code\aapt\libpng\pnggccrd.c
+
+1383278910 source:e:\code\aapt\libpng\pngget.c
+	"png.h"
+
+1383278910 source:e:\code\aapt\libpng\pngmem.c
+	"png.h"
+
+1383278910 source:e:\code\aapt\libpng\pngpread.c
+	"png.h"
+
+1383278910 source:e:\code\aapt\libpng\pngread.c
+	"png.h"
+
+1383278910 source:e:\code\aapt\libpng\pngrio.c
+	"png.h"
+
+1383278910 source:e:\code\aapt\libpng\pngrtran.c
+	"png.h"
+
+1383278910 source:e:\code\aapt\libpng\pngrutil.c
+	"png.h"
+
+1383278910 source:e:\code\aapt\libpng\pngset.c
+	"png.h"
+
+1383278910 source:e:\code\aapt\libpng\pngtest.c
+	"png.h"
+	<windows.h>
+	<stdlib.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<mem.h>
+
+1383278910 source:e:\code\aapt\libpng\pngtrans.c
+	"png.h"
+
+1383278910 source:e:\code\aapt\libpng\pngvcrd.c
+
+1383278910 source:e:\code\aapt\libpng\pngwio.c
+	"png.h"
+
+1383278910 source:e:\code\aapt\libpng\pngwrite.c
+	"png.h"
+
+1383278910 source:e:\code\aapt\libpng\pngwtran.c
+	"png.h"
+
+1383278910 source:e:\code\aapt\libpng\pngwutil.c
+	"png.h"
+
+1383278910 source:e:\code\aapt\libpng\projects\cbuilder5\libpng.cpp
+	<windows.h>
+
+1383278910 source:e:\code\aapt\libpng\scripts\pngw32.rc
+	<windows.h>
+	"../png.h"
+
+1414404962 source:e:\code\aapt\main.cpp
+	"Main.h"
+	"Bundle.h"
+	"fakeLog.h"
+	<utils/threads.h>
+	<utils/List.h>
+	<utils/Errors.h>
+	<stdlib.h>
+	<getopt.h>
+	<assert.h>
+
+1414404962 source:e:\code\aapt\package.cpp
+	"Main.h"
+	"AaptAssets.h"
+	"ResourceTable.h"
+	"ResourceFilter.h"
+	"fakeLog.h"
+	<utils/threads.h>
+	<utils/List.h>
+	<utils/Errors.h>
+	<sys/types.h>
+	<dirent.h>
+	<ctype.h>
+	<errno.h>
+
+1414404962 source:e:\code\aapt\printapk.cpp
+	<utils/ResourceTypes.h>
+	<utils/String8.h>
+	<utils/String16.h>
+	<zipfile/zipfile.h>
+	<stdio.h>
+	<fcntl.h>
+	<unistd.h>
+	<stdlib.h>
+
+1414404962 e:\code\aapt\\zipfile\zipfile.h
+	<stddef.h>
+
+1414404962 source:e:\code\aapt\resource.cpp
+	"Main.h"
+	"AaptAssets.h"
+	"StringPool.h"
+	"XMLNode.h"
+	"ResourceTable.h"
+	"Images.h"
+	"CrunchCache.h"
+	"FileFinder.h"
+	"CacheUpdater.h"
+
+1414404962 source:e:\code\aapt\resourcefilter.cpp
+	"ResourceFilter.h"
+
+1414404962 source:e:\code\aapt\resourcetable.cpp
+	"ResourceTable.h"
+	"XMLNode.h"
+	"ResourceFilter.h"
+	<utils/ByteOrder.h>
+	<utils/ResourceTypes.h>
+	<stdarg.h>
+
+1414404962 source:e:\code\aapt\sourcepos.cpp
+	"SourcePos.h"
+	<stdarg.h>
+	<vector>
+
+1414404962 source:e:\code\aapt\stringpool.cpp
+	"StringPool.h"
+	<utils/ByteOrder.h>
+
+1414404962 source:e:\code\aapt\utils-cpp\asset.cpp
+	"fakeLog.h"
+	<utils/Asset.h>
+	<utils/Atomic.h>
+	<utils/FileMap.h>
+	<utils/StreamingZipInflater.h>
+	<utils/ZipUtils.h>
+	<utils/ZipFileRO.h>
+	<utils/threads.h>
+	<string.h>
+	<memory.h>
+	<fcntl.h>
+	<errno.h>
+	<assert.h>
+	<unistd.h>
+	<sys/stat.h>
+	<sys/types.h>
+
+1414404962 e:\code\aapt\\utils\atomic.h
+	<cutils/atomic.h>
+
+1414404962 e:\code\aapt\\utils\streamingzipinflater.h
+	<unistd.h>
+	<inttypes.h>
+	<zlib.h>
+	<utils/Compat.h>
+
+1414404962 e:\code\aapt\\utils\ziputils.h
+	<stdio.h>
+
+1414404962 source:e:\code\aapt\utils-cpp\assetdir.cpp
+	<utils/AssetDir.h>
+
+1414404962 source:e:\code\aapt\utils-cpp\assetmanager.cpp
+	"fakeLog.h"
+	<utils/AssetManager.h>
+	<utils/AssetDir.h>
+	<utils/Asset.h>
+	<utils/Atomic.h>
+	<utils/String8.h>
+	<utils/ResourceTypes.h>
+	<utils/String8.h>
+	<utils/ZipFileRO.h>
+	<utils/Timers.h>
+	<utils/threads.h>
+	<dirent.h>
+	<errno.h>
+	<assert.h>
+	<strings.h>
+	<fcntl.h>
+	<sys/stat.h>
+	<unistd.h>
+
+1414404962 source:e:\code\aapt\utils-cpp\backupdata.cpp
+	<utils/BackupHelpers.h>
+	<utils/ByteOrder.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	"fakeLog.h"
+
+1414404962 e:\code\aapt\\utils\backuphelpers.h
+	<utils/Errors.h>
+	<utils/String8.h>
+	<utils/KeyedVector.h>
+
+1414404962 source:e:\code\aapt\utils-cpp\blobcache.cpp
+	<stdlib.h>
+	<string.h>
+	<utils/BlobCache.h>
+	"fakeLog.h"
+
+1414404962 e:\code\aapt\\utils\blobcache.h
+	<stddef.h>
+	<utils/RefBase.h>
+	<utils/SortedVector.h>
+	<utils/threads.h>
+
+1414404962 source:e:\code\aapt\utils-cpp\bufferedtextoutput.cpp
+	<utils/BufferedTextOutput.h>
+	<utils/Atomic.h>
+	<utils/Debug.h>
+	"fakeLog.h"
+	<utils/RefBase.h>
+	<utils/Vector.h>
+	<cutils/threads.h>
+	<private/utils/Static.h>
+	<stdio.h>
+	<stdlib.h>
+
+1414404962 e:\code\aapt\\utils\bufferedtextoutput.h
+	<utils/TextOutput.h>
+	<utils/threads.h>
+	<cutils/uio.h>
+
+1414404962 e:\code\aapt\\utils\debug.h
+	<stdint.h>
+	<sys/types.h>
+
+1414404962 e:\code\aapt\\private\utils\static.h
+	<utils/threads.h>
+	<utils/KeyedVector.h>
+
+1414404962 source:e:\code\aapt\utils-cpp\callstack.cpp
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<dlfcn.h>
+	<cxxabi.h>
+	<unwind.h>
+	"fakeLog.h"
+	<unistd.h>
+	<utils/Errors.h>
+	<utils/CallStack.h>
+	<utils/threads.h>
+
+1414404962 e:\code\aapt\\utils\callstack.h
+	<stdint.h>
+	<sys/types.h>
+	<utils/String8.h>
+
+1414404962 source:e:\code\aapt\utils-cpp\debug.cpp
+	<utils/Debug.h>
+	<utils/misc.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
+1414404962 source:e:\code\aapt\utils-cpp\filemap.cpp
+	<utils/FileMap.h>
+	"fakeLog.h"
+	<stdio.h>
+	<stdlib.h>
+	<sys/mman.h>
+	<string.h>
+	<memory.h>
+	<errno.h>
+	<assert.h>
+
+1414404962 source:e:\code\aapt\utils-cpp\flattenable.cpp
+	<utils/Flattenable.h>
+
+1414404962 e:\code\aapt\\utils\flattenable.h
+	<stdint.h>
+	<sys/types.h>
+	<utils/Errors.h>
+
+1414404962 source:e:\code\aapt\utils-cpp\lineartransform.cpp
+	<assert.h>
+	<stdint.h>
+	<utils/LinearTransform.h>
+
+1414404962 e:\code\aapt\\utils\lineartransform.h
+	<stdint.h>
+
+1414404962 source:e:\code\aapt\utils-cpp\misc.cpp
+	<utils/misc.h>
+	<sys/stat.h>
+	<string.h>
+	<errno.h>
+	<assert.h>
+	<stdio.h>
+	<stdio.h>
+
+1414404962 source:e:\code\aapt\utils-cpp\obbfile.cpp
+	<errno.h>
+	<fcntl.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<utils/Compat.h>
+	"fakeLog.h"
+	<utils/ObbFile.h>
+
+1414404962 e:\code\aapt\\utils\obbfile.h
+	<stdint.h>
+	<strings.h>
+	<utils/RefBase.h>
+	<utils/String8.h>
+
+1414404962 source:e:\code\aapt\utils-cpp\propertymap.cpp
+	<stdlib.h>
+	<string.h>
+	<utils/PropertyMap.h>
+	"fakeLog.h"
+
+1414404962 e:\code\aapt\\utils\propertymap.h
+	<utils/KeyedVector.h>
+	<utils/String8.h>
+	<utils/Errors.h>
+	<utils/Tokenizer.h>
+
+1414404962 e:\code\aapt\\utils\tokenizer.h
+	<assert.h>
+	<utils/Errors.h>
+	<utils/FileMap.h>
+	<utils/String8.h>
+
+1414404962 source:e:\code\aapt\utils-cpp\refbase.cpp
+	<utils/RefBase.h>
+	<utils/Atomic.h>
+	<utils/CallStack.h>
+	"fakeLog.h"
+	<utils/threads.h>
+	<utils/TextOutput.h>
+	<stdlib.h>
+	<stdio.h>
+	<typeinfo>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<unistd.h>
+
+1414404962 source:e:\code\aapt\utils-cpp\resourcetypes.cpp
+	<utils/Atomic.h>
+	<utils/ByteOrder.h>
+	<utils/Debug.h>
+	<utils/ResourceTypes.h>
+	<utils/String16.h>
+	<utils/String8.h>
+	<utils/TextOutput.h>
+	"fakeLog.h"
+	<stdlib.h>
+	<string.h>
+	<memory.h>
+	<ctype.h>
+	<stdint.h>
+
+1414404962 source:e:\code\aapt\utils-cpp\sharedbuffer.cpp
+	<stdlib.h>
+	<string.h>
+	<utils/SharedBuffer.h>
+	<utils/Atomic.h>
+
+1443618480 source:e:\code\aapt\utils-cpp\static.cpp
+	<private/utils/Static.h>
+	<utils/BufferedTextOutput.h>
+	"fakeLog.h"
+	<unistd.h>
+	<stdio.h>
+
+1414404962 source:e:\code\aapt\utils-cpp\stopwatch.cpp
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	"fakeLog.h"
+	<utils/Errors.h>
+	<utils/StopWatch.h>
+
+1414404962 e:\code\aapt\\utils\stopwatch.h
+	<stdint.h>
+	<sys/types.h>
+	<utils/Timers.h>
+
+1414404962 source:e:\code\aapt\utils-cpp\streamingzipinflater.cpp
+	"fakeLog.h"
+	<utils/FileMap.h>
+	<utils/StreamingZipInflater.h>
+	<string.h>
+	<stddef.h>
+	<assert.h>
+
+1414404962 source:e:\code\aapt\utils-cpp\string16.cpp
+	<utils/String16.h>
+	<utils/Debug.h>
+	"fakeLog.h"
+	<utils/Unicode.h>
+	<utils/String8.h>
+	<utils/TextOutput.h>
+	<utils/threads.h>
+	<private/utils/Static.h>
+	<memory.h>
+	<stdio.h>
+	<ctype.h>
+
+1414404962 source:e:\code\aapt\utils-cpp\string8.cpp
+	<utils/String8.h>
+	<stdio.h>
+	"fakeLog.h"
+	"preDef.h"
+	<utils/Unicode.h>
+	<utils/SharedBuffer.h>
+	<utils/String16.h>
+	<utils/TextOutput.h>
+	<utils/threads.h>
+	<private/utils/Static.h>
+	<ctype.h>
+
+1414404962 e:\code\aapt\\predef.h
+
+1414404962 source:e:\code\aapt\utils-cpp\stringarray.cpp
+	<stdlib.h>
+	<string.h>
+	<utils/StringArray.h>
+
+1414404962 e:\code\aapt\\utils\stringarray.h
+	<stdlib.h>
+	<string.h>
+
+1414404962 source:e:\code\aapt\utils-cpp\systemclock.cpp
+	<linux/ioctl.h>
+	<linux/rtc.h>
+	<utils/Atomic.h>
+	<linux/android_alarm.h>
+	<sys/time.h>
+	<limits.h>
+	<fcntl.h>
+	<errno.h>
+	<string.h>
+	<utils/SystemClock.h>
+	<utils/Timers.h>
+	"fakeLog.h"
+
+1414404962 e:\code\aapt\\utils\systemclock.h
+	<stdint.h>
+	<sys/types.h>
+
+1414404962 source:e:\code\aapt\utils-cpp\textoutput.cpp
+	<utils/TextOutput.h>
+	<utils/Debug.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1443599260 source:e:\code\aapt\utils-cpp\threads.cpp
+	<utils/threads.h>
+	"fakeLog.h"
+	<cutils/sched_policy.h>
+	<cutils/properties.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<errno.h>
+	<assert.h>
+	<unistd.h>
+	<pthread.h>
+	<sched.h>
+	<sys/resource.h>
+	<windows.h>
+	<stdint.h>
+	<process.h>
+	<sys/prctl.h>
+
+1414404962 source:e:\code\aapt\utils-cpp\timers.cpp
+	<utils/Timers.h>
+	"fakeLog.h"
+	<stdlib.h>
+	<stdio.h>
+	<unistd.h>
+	<sys/time.h>
+	<time.h>
+	<errno.h>
+	<limits.h>
+	<windows.h>
+
+1414404962 source:e:\code\aapt\utils-cpp\tokenizer.cpp
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<errno.h>
+	<sys/types.h>
+	<sys/stat.h>
+	"fakeLog.h"
+	<utils/Tokenizer.h>
+
+1414404962 source:e:\code\aapt\utils-cpp\unicode.cpp
+	<utils/Unicode.h>
+	<stddef.h>
+	<netinet/in.h>
+
+1414404962 source:e:\code\aapt\utils-cpp\vectorimpl.cpp
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	"fakeLog.h"
+	<utils/Errors.h>
+	<utils/SharedBuffer.h>
+	<utils/VectorImpl.h>
+
+1414404962 source:e:\code\aapt\utils-cpp\zipfilecro.cpp
+	<utils/ZipFileCRO.h>
+	<utils/ZipFileRO.h>
+
+1414404962 e:\code\aapt\\utils\zipfilecro.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<utils/Compat.h>
+
+1414404962 source:e:\code\aapt\utils-cpp\zipfilero.cpp
+	<utils/ZipFileRO.h>
+	"fakeLog.h"
+	<utils/misc.h>
+	<utils/threads.h>
+	<zlib.h>
+	<string.h>
+	<fcntl.h>
+	<errno.h>
+	<assert.h>
+	<unistd.h>
+
+1414404962 source:e:\code\aapt\utils-cpp\ziputils.cpp
+	<utils/ZipUtils.h>
+	<utils/ZipFileRO.h>
+	"fakeLog.h"
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<zlib.h>
+
+1414404962 source:e:\code\aapt\xmlnode.cpp
+	"XMLNode.h"
+	"ResourceTable.h"
+	<host/pseudolocalize.h>
+	<utils/ByteOrder.h>
+	<errno.h>
+	<string.h>
+
+1414404962 source:e:\code\aapt\zipentry.cpp
+	"ZipEntry.h"
+	"fakeLog.h"
+	<stdio.h>
+	<string.h>
+	<assert.h>
+	<time.h>
+
+1414404962 source:e:\code\aapt\zipfile.cpp
+	<utils/ZipUtils.h>
+	"fakeLog.h"
+	"ZipFile.h"
+	<zlib.h>
+	<memory.h>
+	<sys/stat.h>
+	<errno.h>
+	<assert.h>
+
+1383278925 source:e:\code\aapt\zlib\adler32.c
+	"zutil.h"
+
+1383278925 e:\code\aapt\zlib\zutil.h
+	"zlib.h"
+	<stddef.h>
+	<string.h>
+	<stdlib.h>
+	<alloc.h>
+	<malloc.h>
+	<malloc.h>
+	<unix.h>
+	<stdio.h>
+
+1383278925 source:e:\code\aapt\zlib\compress.c
+	"zlib.h"
+
+1383278925 source:e:\code\aapt\zlib\crc32.c
+	<stdio.h>
+	"zutil.h"
+	"crc32.h"
+
+1383278925 e:\code\aapt\zlib\crc32.h
+
+1383278925 source:e:\code\aapt\zlib\deflate.c
+	"deflate.h"
+
+1383278925 e:\code\aapt\zlib\deflate.h
+	"zutil.h"
+
+1383278925 source:e:\code\aapt\zlib\gzclose.c
+	"gzguts.h"
+
+1383278925 e:\code\aapt\zlib\gzguts.h
+	<stdio.h>
+	"zlib.h"
+	<string.h>
+	<stdlib.h>
+	<limits.h>
+	<fcntl.h>
+	<stddef.h>
+	<io.h>
+	<windows.h>
+	<errno.h>
+
+1383278925 source:e:\code\aapt\zlib\gzlib.c
+	"gzguts.h"
+
+1383278925 source:e:\code\aapt\zlib\gzread.c
+	"gzguts.h"
+
+1383278925 source:e:\code\aapt\zlib\gzwrite.c
+	"gzguts.h"
+	<stdarg.h>
+
+1383278925 source:e:\code\aapt\zlib\infback.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+	"inffixed.h"
+
+1383278925 e:\code\aapt\zlib\inftrees.h
+
+1383278925 e:\code\aapt\zlib\inflate.h
+
+1383278925 e:\code\aapt\zlib\inffast.h
+
+1383278925 e:\code\aapt\zlib\inffixed.h
+
+1383278925 source:e:\code\aapt\zlib\inffast.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+
+1383278925 source:e:\code\aapt\zlib\inflate.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+	"inffixed.h"
+	<stdio.h>
+
+1383278925 source:e:\code\aapt\zlib\inftrees.c
+	"zutil.h"
+	"inftrees.h"
+
+1383278925 source:e:\code\aapt\zlib\trees.c
+	"deflate.h"
+	<ctype.h>
+	"trees.h"
+	<stdio.h>
+
+1383278925 e:\code\aapt\zlib\trees.h
+
+1383278925 source:e:\code\aapt\zlib\uncompr.c
+	"zlib.h"
+
+1383278925 source:e:\code\aapt\zlib\zutil.c
+	"zutil.h"
+	"gzguts.h"
+
+1383279085 source:e:\code\aapt\zipfile\centraldir.c
+	"private.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1383279085 e:\code\aapt\zipfile\private.h
+	<stddef.h>
+	<stdint.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1383279085 source:e:\code\aapt\zipfile\zipfile.c
+	<zipfile/zipfile.h>
+	"private.h"
+	<stdlib.h>
+	<string.h>
+	<zlib.h>
+

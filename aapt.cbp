@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="aapt" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/aapt" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="E:/code/aapt/utils" />
+					<Add directory="E:/code/aapt/" />
+					<Add directory="E:/code/aapt/expat" />
+					<Add directory="libpng" />
+					<Add directory="zlib" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="Debug">
+				<Option output="bin/Debug/aapt" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="0" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="E:/code/aapt/utils" />
+					<Add directory="E:/code/aapt/" />
+					<Add directory="E:/code/aapt/expat" />
+					<Add directory="libpng" />
+					<Add directory="zlib" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add option="-D_FILE_OFFSET_BITS=64" />
+			<Add option="-DHAVE_WINSOCK" />
+			<Add option="-DHAVE_MS_C_RUNTIME" />
+			<Add option="-DANDROID_SMP" />
+			<Add option="-DHAVE_WIN32_THREADS" />
+			<Add option="-DHAVE_WIN32_FILEMAP" />
+			<Add option="-DHAVE_MEMMOVE" />
+			<Add option="-D__MSVCRT_VERSION__=0x0601" />
+		</Compiler>
+		<Unit filename="AaptAssets.cpp" />
+		<Unit filename="AaptAssets.h" />
+		<Unit filename="Bundle.h" />
+		<Unit filename="CacheUpdater.h" />
+		<Unit filename="Command.cpp" />
+		<Unit filename="CrunchCache.cpp" />
+		<Unit filename="CrunchCache.h" />
+		<Unit filename="DirectoryWalker.h" />
+		<Unit filename="FileFinder.cpp" />
+		<Unit filename="FileFinder.h" />
+		<Unit filename="Images.cpp" />
+		<Unit filename="Images.h" />
+		<Unit filename="Main.cpp" />
+		<Unit filename="Main.h" />
+		<Unit filename="Package.cpp" />
+		<Unit filename="Resource.cpp" />
+		<Unit filename="ResourceFilter.cpp" />
+		<Unit filename="ResourceFilter.h" />
+		<Unit filename="ResourceTable.cpp" />
+		<Unit filename="ResourceTable.h" />
+		<Unit filename="SourcePos.cpp" />
+		<Unit filename="SourcePos.h" />
+		<Unit filename="StringPool.cpp" />
+		<Unit filename="StringPool.h" />
+		<Unit filename="XMLNode.cpp" />
+		<Unit filename="XMLNode.h" />
+		<Unit filename="ZipEntry.cpp" />
+		<Unit filename="ZipEntry.h" />
+		<Unit filename="ZipFile.cpp" />
+		<Unit filename="ZipFile.h" />
+		<Unit filename="android/asset_manager.h" />
+		<Unit filename="android/configuration.h" />
+		<Unit filename="android/log.h" />
+		<Unit filename="android/looper.h" />
+		<Unit filename="constDef.h" />
+		<Unit filename="cutils-c/atomic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cutils-c/loghack.h" />
+		<Unit filename="cutils-c/properties.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cutils-c/sched_policy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cutils-c/sockets.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cutils-c/threads.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cutils-c/uio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cutils/atomic-inline.h" />
+		<Unit filename="cutils/atomic-x86.h" />
+		<Unit filename="cutils/atomic.h" />
+		<Unit filename="cutils/log.h" />
+		<Unit filename="cutils/logd.h" />
+		<Unit filename="cutils/properties.h" />
+		<Unit filename="cutils/sched_policy.h" />
+		<Unit filename="cutils/sockets.h" />
+		<Unit filename="cutils/threads.h" />
+		<Unit filename="cutils/uio.h" />
+		<Unit filename="expat/ascii.h" />
+		<Unit filename="expat/asciitab.h" />
+		<Unit filename="expat/expat.h" />
+		<Unit filename="expat/expat_config.h" />
+		<Unit filename="expat/expat_external.h" />
+		<Unit filename="expat/iasciitab.h" />
+		<Unit filename="expat/internal.h" />
+		<Unit filename="expat/latin1tab.h" />
+		<Unit filename="expat/nametab.h" />
+		<Unit filename="expat/utf8tab.h" />
+		<Unit filename="expat/xmlparse.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="expat/xmlrole.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="expat/xmlrole.h" />
+		<Unit filename="expat/xmltok.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="expat/xmltok.h" />
+		<Unit filename="expat/xmltok_impl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="expat/xmltok_impl.h" />
+		<Unit filename="expat/xmltok_ns.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fakeLog.h" />
+		<Unit filename="host/pseudolocalize.cpp" />
+		<Unit filename="host/pseudolocalize.h" />
+		<Unit filename="libpng/contrib/gregbook/readpng.h" />
+		<Unit filename="libpng/contrib/gregbook/readpng2.h" />
+		<Unit filename="libpng/contrib/gregbook/writepng.h" />
+		<Unit filename="libpng/contrib/pngminim/decoder/pngusr.h" />
+		<Unit filename="libpng/contrib/pngminim/encoder/pngusr.h" />
+		<Unit filename="libpng/contrib/pngminim/preader/pngusr.h" />
+		<Unit filename="libpng/contrib/visupng/PngFile.h" />
+		<Unit filename="libpng/contrib/visupng/VisualPng.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="libpng/contrib/visupng/cexcept.h" />
+		<Unit filename="libpng/contrib/visupng/resource.h" />
+		<Unit filename="libpng/example.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libpng/png.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libpng/png.h" />
+		<Unit filename="libpng/pngconf.h" />
+		<Unit filename="libpng/pngerror.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libpng/pnggccrd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libpng/pngget.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libpng/pngmem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libpng/pngpread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libpng/pngread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libpng/pngrio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libpng/pngrtran.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libpng/pngrutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libpng/pngset.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libpng/pngtest.c">
+			<Option compilerVar="CC" />
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="libpng/pngtrans.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libpng/pngusr.h" />
+		<Unit filename="libpng/pngvcrd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libpng/pngwio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libpng/pngwrite.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libpng/pngwtran.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libpng/pngwutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libpng/projects/cbuilder5/libpng.cpp" />
+		<Unit filename="libpng/scripts/pngw32.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="preDef.h" />
+		<Unit filename="printapk.cpp" />
+		<Unit filename="private/utils/Static.h" />
+		<Unit filename="system/graphics.h" />
+		<Unit filename="utils-cpp/Asset.cpp" />
+		<Unit filename="utils-cpp/AssetDir.cpp" />
+		<Unit filename="utils-cpp/AssetManager.cpp" />
+		<Unit filename="utils-cpp/BackupData.cpp" />
+		<Unit filename="utils-cpp/BackupHelpers.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="utils-cpp/BlobCache.cpp" />
+		<Unit filename="utils-cpp/BufferedTextOutput.cpp" />
+		<Unit filename="utils-cpp/CallStack.cpp" />
+		<Unit filename="utils-cpp/Debug.cpp" />
+		<Unit filename="utils-cpp/FileMap.cpp" />
+		<Unit filename="utils-cpp/Flattenable.cpp" />
+		<Unit filename="utils-cpp/LinearTransform.cpp" />
+		<Unit filename="utils-cpp/Looper.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="utils-cpp/ObbFile.cpp" />
+		<Unit filename="utils-cpp/PropertyMap.cpp" />
+		<Unit filename="utils-cpp/RefBase.cpp" />
+		<Unit filename="utils-cpp/ResourceTypes.cpp" />
+		<Unit filename="utils-cpp/SharedBuffer.cpp" />
+		<Unit filename="utils-cpp/Static.cpp" />
+		<Unit filename="utils-cpp/StopWatch.cpp" />
+		<Unit filename="utils-cpp/StreamingZipInflater.cpp" />
+		<Unit filename="utils-cpp/String16.cpp" />
+		<Unit filename="utils-cpp/String8.cpp" />
+		<Unit filename="utils-cpp/StringArray.cpp" />
+		<Unit filename="utils-cpp/SystemClock.cpp" />
+		<Unit filename="utils-cpp/TextOutput.cpp" />
+		<Unit filename="utils-cpp/Threads.cpp" />
+		<Unit filename="utils-cpp/Timers.cpp" />
+		<Unit filename="utils-cpp/Tokenizer.cpp" />
+		<Unit filename="utils-cpp/Unicode.cpp" />
+		<Unit filename="utils-cpp/VectorImpl.cpp" />
+		<Unit filename="utils-cpp/ZipFileCRO.cpp" />
+		<Unit filename="utils-cpp/ZipFileRO.cpp" />
+		<Unit filename="utils-cpp/ZipUtils.cpp" />
+		<Unit filename="utils-cpp/misc.cpp" />
+		<Unit filename="utils/Asset.h" />
+		<Unit filename="utils/AssetDir.h" />
+		<Unit filename="utils/AssetManager.h" />
+		<Unit filename="utils/Atomic.h" />
+		<Unit filename="utils/BackupHelpers.h" />
+		<Unit filename="utils/BitSet.h" />
+		<Unit filename="utils/BlobCache.h" />
+		<Unit filename="utils/BufferedTextOutput.h" />
+		<Unit filename="utils/ByteOrder.h" />
+		<Unit filename="utils/CallStack.h" />
+		<Unit filename="utils/Compat.h" />
+		<Unit filename="utils/Debug.h" />
+		<Unit filename="utils/Endian.h" />
+		<Unit filename="utils/Errors.h" />
+		<Unit filename="utils/FileMap.h" />
+		<Unit filename="utils/Flattenable.h" />
+		<Unit filename="utils/Functor.h" />
+		<Unit filename="utils/GenerationCache.h" />
+		<Unit filename="utils/KeyedVector.h" />
+		<Unit filename="utils/LinearTransform.h" />
+		<Unit filename="utils/List.h" />
+		<Unit filename="utils/Looper.h" />
+		<Unit filename="utils/ObbFile.h" />
+		<Unit filename="utils/PropertyMap.h" />
+		<Unit filename="utils/RefBase.h" />
+		<Unit filename="utils/ResourceTypes.h" />
+		<Unit filename="utils/SharedBuffer.h" />
+		<Unit filename="utils/Singleton.h" />
+		<Unit filename="utils/SortedVector.h" />
+		<Unit filename="utils/StopWatch.h" />
+		<Unit filename="utils/StreamingZipInflater.h" />
+		<Unit filename="utils/String16.h" />
+		<Unit filename="utils/String8.h" />
+		<Unit filename="utils/StringArray.h" />
+		<Unit filename="utils/StrongPointer.h" />
+		<Unit filename="utils/SystemClock.h" />
+		<Unit filename="utils/TextOutput.h" />
+		<Unit filename="utils/Timers.h" />
+		<Unit filename="utils/Tokenizer.h" />
+		<Unit filename="utils/TypeHelpers.h" />
+		<Unit filename="utils/Unicode.h" />
+		<Unit filename="utils/Vector.h" />
+		<Unit filename="utils/VectorImpl.h" />
+		<Unit filename="utils/ZipFileCRO.h" />
+		<Unit filename="utils/ZipFileRO.h" />
+		<Unit filename="utils/ZipUtils.h" />
+		<Unit filename="utils/ashmem.h" />
+		<Unit filename="utils/misc.h" />
+		<Unit filename="utils/threads.h" />
+		<Unit filename="utils/zLog.h" />
+		<Unit filename="zipfile/centraldir.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="zipfile/private.h" />
+		<Unit filename="zipfile/zipfile.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="zipfile/zipfile.h" />
+		<Unit filename="zlib/adler32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="zlib/compress.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="zlib/crc32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="zlib/crc32.h" />
+		<Unit filename="zlib/deflate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="zlib/deflate.h" />
+		<Unit filename="zlib/gzclose.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="zlib/gzguts.h" />
+		<Unit filename="zlib/gzlib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="zlib/gzread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="zlib/gzwrite.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="zlib/infback.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="zlib/inffast.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="zlib/inffast.h" />
+		<Unit filename="zlib/inffixed.h" />
+		<Unit filename="zlib/inflate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="zlib/inflate.h" />
+		<Unit filename="zlib/inftrees.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="zlib/inftrees.h" />
+		<Unit filename="zlib/trees.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="zlib/trees.h" />
+		<Unit filename="zlib/uncompr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="zlib/zconf.h" />
+		<Unit filename="zlib/zlib.h" />
+		<Unit filename="zlib/zutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="zlib/zutil.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
